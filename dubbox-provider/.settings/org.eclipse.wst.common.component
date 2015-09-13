@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project-modules id="moduleCoreId" project-version="1.5.0">
+    <wb-module deploy-name="dubbox-provider Maven Webapp">
+        <wb-resource deploy-path="/" source-path="/src/main/webapp"/>
+        <wb-resource deploy-path="/WEB-INF/classes" source-path="/src/main/resources"/>
+        <wb-resource deploy-path="/WEB-INF/classes" source-path="/src/main/java"/>
+        <wb-resource deploy-path="/WEB-INF/classes" source-path="/src/main/test"/>
+        <dependent-module archiveName="dubbox-api-0.0.1.jar" deploy-path="/WEB-INF/lib" handle="module:/resource/dubbox-api Maven Webapp/dubbox-api Maven Webapp">
+            <dependency-type>uses</dependency-type>
+        </dependent-module>
+        <property name="context-root" value="/dubbox-provider"/>
+        <property name="java-output-path" value="/dubbox-provider Maven Webapp/src/main/webapp/WEB-INF/classes"/>
+    </wb-module>
+</project-modules>

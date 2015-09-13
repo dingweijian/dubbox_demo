@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project-module
+  type="WEB"
+  name="dubbox-provider Maven Webapp"
+  id="myeclipse.1442080182566"
+  context-root="/dubbox-provider"
+  j2ee-spec="6.0"
+  archive="dubbox-provider Maven Webapp.war">
+  <attributes>
+    <attribute name="webrootdir" value="src/main/webapp" />
+  </attributes>
+</project-module>
+
